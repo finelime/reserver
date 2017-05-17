@@ -1,0 +1,81 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf);
+}
+
+.center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+article {
+	display: inline-block;
+	font-family: roboto;
+	font-weight: bold;
+	color: #000;
+}
+
+article .title {
+	margin-top: 30px;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+article .reservation {
+	font-size: 17px;
+	margin: 0px;
+}
+
+article .glyphicon {
+	margin-top: 20px;
+	font-size: 200px;
+}
+
+article .status {
+	font-size: 25px;
+}
+
+article .reserve {
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+article .reserved {
+	margin-top: 40px;
+	font-size: 25px;
+}
+
+article .enter {
+	margin-top: 200px;
+	font-size: 25px;
+}
+
+article .text {
+	width: 240px;
+	text-align: center;
+}
+
+article .submit {
+	height: 42px;
+	width: 50px;
+}
+
+article select {
+	width: 120px;
+	height: 30px;
+	background-color: transparent;
+}
+
+article input {
+	margin-top: 10px;
+	width: 320px;
+	height: 40px;
+	border-radius: 0px;
+}
+
+input[type='text'], input[type='submit'], select, option {
+	font-size: 16px;
+}
